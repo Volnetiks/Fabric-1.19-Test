@@ -1,0 +1,7 @@
+{
+  "item.testmod.jade_ingot": "Jade Ingot",
+  "item.testmod.jade_nugget": "Jade Nugget",
+  "block.testmod.jade_block": "Jade Block",
+  "block.testmod.jade_ore": "Jade Ore",
+  "itemGroup.testmod.jade": "Jade Mod"
+}
