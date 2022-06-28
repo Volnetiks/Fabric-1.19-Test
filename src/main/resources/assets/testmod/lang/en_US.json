@@ -3,5 +3,8 @@
   "item.testmod.jade_nugget": "Jade Nugget",
   "block.testmod.jade_block": "Jade Block",
   "block.testmod.jade_ore": "Jade Ore",
-  "itemGroup.testmod.jade": "Jade Mod"
+  "block.testmod.slow_block": "Slow Block",
+  "itemGroup.testmod.jade": "Jade Mod",
+  "item.testmod.dowsing_rod": "Dowsing Rod",
+  "item.testmod.dowsing_rod.no_valuables": "Nothing found."
 }
