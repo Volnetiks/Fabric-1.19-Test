@@ -13,6 +13,9 @@ public class ModItems {
     public static final Item JADE_INGOT = registerItem("jade_ingot", new Item(new FabricItemSettings().group(ModItemGroups.JADE)));
     public static final Item JADE_NUGGET = registerItem("jade_nugget", new Item(new FabricItemSettings().group(ModItemGroups.JADE)));
     public static final Item DOWSING_ROD = registerItem("dowsing_rod", new DowsingRodItem(new FabricItemSettings().group(ModItemGroups.JADE).maxDamage(32)));
+    public static final Item FUEL = registerItem("testmod_fuel", new Item(new FabricItemSettings().group(ModItemGroups.JADE)));
+
+    public static final Item BLUE_BERRY = registerItem("blue_berry", new Item(new FabricItemSettings().group(ModItemGroups.JADE).food(ModFoodComponents.BLUE_BERRY)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);

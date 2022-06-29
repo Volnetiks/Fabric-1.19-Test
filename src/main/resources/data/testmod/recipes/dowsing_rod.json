@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0#0",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "0": {
+      "item": "testmod:jade_ingot"
+    }
+  },
+  "result": {
+    "item": "testmod:dowsing_rod"
+  }
+}

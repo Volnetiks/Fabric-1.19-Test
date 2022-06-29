@@ -1,10 +1,17 @@
 {
   "item.testmod.jade_ingot": "Jade Ingot",
   "item.testmod.jade_nugget": "Jade Nugget",
+  "item.testmod.testmod_fuel": "Fuel",
+  "item.testmod.blue_berry": "Blue Berry",
+
   "block.testmod.jade_block": "Jade Block",
   "block.testmod.jade_ore": "Jade Ore",
   "block.testmod.slow_block": "Slow Block",
+
   "itemGroup.testmod.jade": "Jade Mod",
+
   "item.testmod.dowsing_rod": "Dowsing Rod",
-  "item.testmod.dowsing_rod.no_valuables": "Nothing found."
+  "item.testmod.dowsing_rod.no_valuables": "Nothing found.",
+
+  "item.testmod.dowsing_rod.tooltip": "Right Click on a block to find valuables!"
 }
