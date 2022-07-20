@@ -1,6 +1,7 @@
 package com.volnetiks.testmod.blocks;
 
 import com.volnetiks.testmod.TestMod;
+import com.volnetiks.testmod.blocks.custom.ModLampBlock;
 import com.volnetiks.testmod.blocks.custom.SlowBlock;
 import com.volnetiks.testmod.items.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -25,6 +26,7 @@ public class ModBlocks {
     public static final Block JADE_BLOCK = registerBlock("jade_block", new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), ModItemGroups.JADE);
     public static final Block JADE_ORE = registerBlock("jade_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
     public static final Block SLOW_BLOCK = registerBlock("slow_block", new SlowBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
+    public static final Block LAMP_BLOCK = registerBlock("lamp_block", new ModLampBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool().luminance(state -> state.get(ModLampBlock.LIT) ? 15 : 0)), ModItemGroups.JADE);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup, String tooltipKey) {
