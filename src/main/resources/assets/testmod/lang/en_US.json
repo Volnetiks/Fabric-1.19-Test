@@ -6,6 +6,9 @@
 
   "block.testmod.jade_block": "Jade Block",
   "block.testmod.jade_ore": "Jade Ore",
+  "block.testmod.deepslate_jade_ore": "Deepslate Jade Ore",
+  "block.testmod.netherrack_jade_ore": "Netherrack Jade Ore",
+  "block.testmod.end_jade_ore": "End Jade Ore",
   "block.testmod.slow_block": "Slow Block",
   "block.testmod.lamp_block": "Lamp Block",
 

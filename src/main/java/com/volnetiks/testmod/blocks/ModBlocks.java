@@ -27,7 +27,9 @@ public class ModBlocks {
     public static final Block JADE_ORE = registerBlock("jade_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
     public static final Block SLOW_BLOCK = registerBlock("slow_block", new SlowBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
     public static final Block LAMP_BLOCK = registerBlock("lamp_block", new ModLampBlock(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool().luminance(state -> state.get(ModLampBlock.LIT) ? 15 : 0)), ModItemGroups.JADE);
-
+    public static final Block DEEPSLATE_JADE_ORE = registerBlock("deepslate_jade_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
+    public static final Block NETHERRACK_JADE_ORE = registerBlock("netherrack_jade_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
+    public static final Block END_JADE_ORE = registerBlock("end_jade_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroups.JADE);
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup, String tooltipKey) {
         registerBlockItem(name, block, itemGroup, tooltipKey);
